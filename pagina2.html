@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <script src="js/pagina2.js" defer></script>
+</head>
+<body>
+    <h1>Página 2</h1>
+    <p id="saludo"></p>
+    <button id="btn-borrar">Borrar el nombre</button>
+    <button id="btn-borrar-todo">Borrar todo</button>
+    <a href="index.html">Volver a la página 1</a>
+
+    <section>
+    <h2>Respuestas a las preguntas de reflexión</h2>
+    <ol>
+        <li>Tu respuesta a la pregunta 1. la pagina 2 almacena el nombre en la bodega de session storage, cuando en la pagina 1 se da click en guardar y al ir a la pagina 2 busca el dato en el storage y lo muestra con la función mostrarNombre()</li>
+        <li>Tu respuesta a la pregunta 2. getItem devuelve null cuando no hay nada guardado. Si el código no lo revisara con el if, se mostraría "null" en lugar del mensaje esperado.</li>
+        <li>Tu respuesta a la pregunta 3. Recargar la página mantiene los datos en session storage, mientras que cerrar la pestaña los elimina.</li>
+        <li>Tu respuesta a la pregunta 4. Si se usara localStorage en lugar de sessionStorage, el nombre permanecería guardado localmente incluso después de cerrar la pestaña o el navegador, y estaría disponible en futuras visitas a la página. No guardaría datos en session storage, porque cualquiera podria obtener y modificar mi informacion </li>
+    </ol>
+</section>
+</body>
+</html>
+
+
